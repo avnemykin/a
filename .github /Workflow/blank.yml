@@ -27,4 +27,15 @@ for i in range(20):
 print()        
 print(k)
 
-4.
+5.from random import *
+max = 100
+for i in range(10):
+    c = randint(100,1000)
+    print(c, end = " ")
+   
+    if c >max:
+        max= c
+print()
+print("Наибольшее:\n", max)
+
+
